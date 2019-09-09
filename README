@@ -1,0 +1,18 @@
+execution order (for svm):
+extract_timestamps
+calc_features*
+classify_subs
+inter_subject_generate
+intra_subject_generate
+training
+testing
+
+for dnn:
+extract_timestamps
+calc_features*
+classify_subs
+inter_subject_generate
+intra_subject_generate
+
+*NOTE : remove first 12 sentences from advait part 2 in modified timestamps
+and sentence 33 from ashwin part 2
